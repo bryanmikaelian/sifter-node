@@ -12,6 +12,9 @@
   "engines": {
     "node": "~v0.4.12"
   },
-  "dependencies": {},
+  "dependencies": {
+    "scoped-http-client": "0.9.6",
+    "coffee-script": "1.2.0"
+  },
   "devDependencies": {}
 }
