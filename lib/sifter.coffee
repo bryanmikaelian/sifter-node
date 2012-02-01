@@ -13,7 +13,7 @@ class Sifter
       .header('Accept', 'application/json')
       .get() (err, res, data) ->
         try
-          callback null, JSON.parse(data)
+          callback JSON.parse(data)
         catch err
           callback null, data or { }
 
