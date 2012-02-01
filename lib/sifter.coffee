@@ -31,3 +31,15 @@ class Sifter
 
   People: (project_id, callback) ->
     @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/people", callback
+
+  Issues: (project_id, callback) ->
+    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/issues", callback
+
+  Issue: (project_id, issue_id, callback) ->
+    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/issues/#{issue_id}", callback
+
+  Statuses: ->
+    @get "https://#{company}.sifterapp.com/api/statuses", callback
+
+  Priorities: ->
+    @get "https://#{company}.sifterapp.com/api/priorities", callback
