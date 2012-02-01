@@ -1,6 +1,6 @@
 {
   "author": "Bryan Mikaelian <bryan.mikaelian@gmail.com>",
-  "name": "sifter",
+  "name": "sifter-node",
   "description": "A wrapper for the Sifter API",
   "version": "0.0.0",
   "homepage": "github.com/bryanmikaelian",
