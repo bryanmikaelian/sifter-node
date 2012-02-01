@@ -22,3 +22,12 @@ class Sifter
 
   Project: (id, callback) ->
     @get "https://#{company}.sifterapp.com/api/projects/#{id}", callback
+
+  Milestones: (project_id , callback) ->
+    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/milestones", callback
+
+  Categories: (project_id, callback) ->
+    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/categories", callback
+
+  People: (project_id, callback) ->
+    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/people", callback
