@@ -44,4 +44,7 @@ class Sifter
   Priorities: ->
     @get "https://#{@company}.sifterapp.com/api/priorities", callback
 
+  Get: (api_url, callback) ->
+    @get api_url, callback
+
  module.exports = Sifter

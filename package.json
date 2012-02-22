@@ -3,7 +3,7 @@
   "name": "sifter-node",
   "description": "A wrapper for the Sifter API",
   "homepage": "github.com/bryanmikaelian",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/sifter",
   "repository": {
     "type": "git",
