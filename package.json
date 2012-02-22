@@ -2,8 +2,8 @@
   "author": "Bryan Mikaelian <bryan.mikaelian@gmail.com>",
   "name": "sifter-node",
   "description": "A wrapper for the Sifter API",
-  "version": "0.0.0",
   "homepage": "github.com/bryanmikaelian",
+  "version": "0.0.2",
   "main": "./lib/sifter",
   "repository": {
     "type": "git",

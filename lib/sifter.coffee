@@ -43,3 +43,5 @@ class Sifter
 
   Priorities: ->
     @get "https://#{@company}.sifterapp.com/api/priorities", callback
+
+ module.exports = Sifter
