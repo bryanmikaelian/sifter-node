@@ -21,25 +21,25 @@ class Sifter
     @get "https://#{@company}.sifterapp.com/api/projects", callback
 
   Project: (id, callback) ->
-    @get "https://#{company}.sifterapp.com/api/projects/#{id}", callback
+    @get "https://#{@company}.sifterapp.com/api/projects/#{id}", callback
 
   Milestones: (project_id , callback) ->
-    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/milestones", callback
+    @get "https://#{@company}.sifterapp.com/api/projects/#{project_id}/milestones", callback
 
   Categories: (project_id, callback) ->
-    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/categories", callback
+    @get "https://#{@company}.sifterapp.com/api/projects/#{project_id}/categories", callback
 
   People: (project_id, callback) ->
-    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/people", callback
+    @get "https://#{@company}.sifterapp.com/api/projects/#{project_id}/people", callback
 
   Issues: (project_id, callback) ->
-    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/issues", callback
+    @get "https://#{@company}.sifterapp.com/api/projects/#{project_id}/issues", callback
 
   Issue: (project_id, issue_id, callback) ->
-    @get "https://#{company}.sifterapp.com/api/projects/#{project_id}/issues/#{issue_id}", callback
+    @get "https://#{@company}.sifterapp.com/api/projects/#{project_id}/issues/#{issue_id}", callback
 
   Statuses: ->
-    @get "https://#{company}.sifterapp.com/api/statuses", callback
+    @get "https://#{@company}.sifterapp.com/api/statuses", callback
 
   Priorities: ->
-    @get "https://#{company}.sifterapp.com/api/priorities", callback
+    @get "https://#{@company}.sifterapp.com/api/priorities", callback
